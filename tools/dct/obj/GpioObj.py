@@ -5,14 +5,13 @@ import re
 import os
 import sys
 import string
-import ConfigParser
+import configparser as ConfigParser
 import xml.dom.minidom
 
 
 from data.GpioData import GpioData
 from data.EintData import EintData
-from ModuleObj import ModuleObj
-import ChipObj
+from .ModuleObj import ModuleObj
 from utility.util import compare
 from utility.util import sorted_key
 

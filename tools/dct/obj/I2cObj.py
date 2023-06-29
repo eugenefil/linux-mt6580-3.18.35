@@ -4,14 +4,13 @@
 import re
 import string
 import xml.dom.minidom
-import ConfigParser
+import configparser as ConfigParser
 
-from ModuleObj import ModuleObj
+from .ModuleObj import ModuleObj
 #from utility import util
 from utility.util import sorted_key
 from data.I2cData import I2cData
 from data.I2cData import BusData
-import ChipObj
 
 class I2cObj(ModuleObj):
     def __init__(self):
