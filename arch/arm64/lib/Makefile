@@ -1,4 +1,4 @@
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 
 lib-y		:= bitops.o clear_user.o delay.o copy_from_user.o	\
 		   copy_to_user.o copy_in_user.o copy_page.o		\

@@ -11,7 +11,7 @@
 # Copyright (C) 1995-2002 Russell King
 #
 
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 
 ifneq ($(MACHINE),)
 include $(srctree)/$(MACHINE)/Makefile.boot

@@ -2,7 +2,7 @@
 # Makefile for kernel SPI drivers.
 #
 
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 ccflags-$(CONFIG_SPI_DEBUG) := -DDEBUG
 
 subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/$(MTK_PLATFORM)

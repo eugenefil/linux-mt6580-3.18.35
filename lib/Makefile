@@ -8,7 +8,7 @@ KBUILD_CFLAGS = $(subst -pg,,$(ORIG_CFLAGS))
 endif
 subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/include
 
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 
 lib-y := ctype.o string.o vsprintf.o cmdline.o \
 	 rbtree.o radix-tree.o dump_stack.o timerqueue.o\

@@ -14,7 +14,7 @@
 # Based on the ia64 boot/Makefile.
 #
 
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 
 include $(srctree)/arch/arm64/boot/dts/Makefile
 

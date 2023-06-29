@@ -1,4 +1,4 @@
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 
 obj-$(CONFIG_IRQCHIP)			+= irqchip.o
 

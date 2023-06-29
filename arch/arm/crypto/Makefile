@@ -2,7 +2,7 @@
 # Arch-specific CryptoAPI modules.
 #
 
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 
 obj-$(CONFIG_CRYPTO_AES_ARM) += aes-arm.o
 obj-$(CONFIG_CRYPTO_AES_ARM_BS) += aes-arm-bs.o

@@ -1,5 +1,5 @@
 
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 
 # common clock types
 obj-$(CONFIG_HAVE_CLK)		+= clk-devres.o

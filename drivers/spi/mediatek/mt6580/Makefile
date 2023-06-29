@@ -11,7 +11,7 @@
 # GNU General Public License for more details.
 #
 
-subdir-ccflags-y += -Werror -I$(srctree)/drivers/misc/mediatek/include \
+subdir-ccflags-y +=  -I$(srctree)/drivers/misc/mediatek/include \
 -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/include \
 -I$(srctree)/drivers/misc/mediatek/include/mt-plat
 

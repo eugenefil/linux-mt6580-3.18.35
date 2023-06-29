@@ -2,7 +2,7 @@
 # Makefile for the linux kernel.
 #
 
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 
 obj-y				+= firmware.o
 
